@@ -1,0 +1,16 @@
+{
+  "name": "token-safety-check",
+  "version": "1.0.0",
+  "description": "Plain-English scam check for Solana and EVM tokens. Read-only, zero dependencies.",
+  "type": "module",
+  "bin": {
+    "token-safety-check": "cli.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/scan.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
